@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Phone Dialer</string>
+    <string name="button0_text">0</string>
+    <string name="button1_text">1</string>
+    <string name="button2_text">2</string>
+    <string name="button3_text">3</string>
+    <string name="button4_text">4</string>
+    <string name="button5_text">5</string>
+    <string name="button6_text">6</string>
+    <string name="button7_text">7</string>
+    <string name="button8_text">8</string>
+    <string name="button9_text">9</string>
+    <string name="buttonStar_text">*</string>
+    <string name="buttonHash_text">#</string>
+</resources>
