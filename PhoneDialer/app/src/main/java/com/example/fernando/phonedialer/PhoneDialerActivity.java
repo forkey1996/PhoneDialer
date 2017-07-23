@@ -42,8 +42,8 @@ public class PhoneDialerActivity extends AppCompatActivity {
                                 PERMISSION_REQUEST_CALL_PHONE
                                 );
                     }
-                    else
-                    {
+
+                    if (ContextCompat.checkSelfPermission(PhoneDialerActivity.this, Manifest.permission.CALL_PHONE) == PackageManager.PERMISSION_GRANTED) {
                         Intent intent = new Intent(Intent.ACTION_CALL);
                         intent.setData(Uri.parse("tel:" + phoneNumberEditText.getText().toString()));
                         startActivity(intent);
